@@ -41,7 +41,7 @@ An efficient real-time keyword spotting (RTKWS) architecture for edge devices is
 
 Implements brightness and color equalization (BCE) methods of images obtained from different cameras on a real advanced driver assistance system (ADAS) platform. In particular, four different methods for BCE that are a combination of a basic linear transformation (BLT) and gamma correction are implemented and tested. In addition to BCE, blending operations based on improved gradual fusion were also carried out to obtain a smooth transition of brightness and color components in the final panoramic image at the overlapping region between the input images. The resulting images were tested subjectively to determine the most preferred method for BCE out of four methods. The developed solution for BCE was implemented on the ADAS ALPHA development board.
 
-![Input provided to BCE Algorithm](/assets/publications/bce_output.png)
+![Input provided to BCE Algorithm](/assets/publications/bce_input.png)
 
 
 ![Outputs from BCE Algorithm](/assets/publications/bce_output.png)
