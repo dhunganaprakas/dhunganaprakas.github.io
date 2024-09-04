@@ -4,7 +4,7 @@ My name is Prakash Dhungana, and I am a second-year Computer Engineering Ph.D. s
 
 In 2016, after graduating as a Mechanical engineer, I joined IME Motors, where I worked as an automotive service advisor for Ashok Leyland commercial vehicles. Later in 2018, I joined Goldfish International, where I worked as service engineer for SML ISUZU commercial vehicles. During those periods, I overlooked diagnosis, overhauling, manage service operations at a branch and later nation-wide and handle warranty claims. After my involvement in automotive service and diagnosis, I pursued further studies towards Automotive Computing in 2019 at University of Osijek (Croatia). After graduating from University of Osijek, I worked as an Embedded Software Developer at Time Triggered Technologies Auto (TTTech Auto), Osijek from 2021 before joining University of Kentucky in 2023 for my PhD.  
 
-![Input provided to BCE Algorithm](/assets/profile/profile_pic.png)
+![Input provided to BCE Algorithm](/assets/profile/profile_pic_1.jpg)
 
 # Research Interests
 
@@ -27,11 +27,11 @@ An efficient real-time keyword spotting (RTKWS) architecture for edge devices is
 
 ### RTKWS Publications
 
-* P. Dhungana and S. A. Salehi, ``Exploring the Effect of Kernel Depth in Compact Keyword Spotting Models," 2024 International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA), Istanbul, Turkiye, 2024, pp. 1-6, [doi: 10.1109/HORA61326.2024.10550542](https://ieeexplore.ieee.org/document/10550542).
+* P. Dhungana and S. A. Salehi, "Exploring the Effect of Kernel Depth in Compact Keyword Spotting Models", 2024 International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA), Istanbul, Turkiye, 2024, pp. 1-6, [doi: 10.1109/HORA61326.2024.10550542](https://ieeexplore.ieee.org/document/10550542).
 
-* P. Dhungana and S. A. Salehi, ``RTKWS: Real-Time Keyword Spotting Based on Integer Arithmetic for Edge Deployment," 2024 25th International Symposium on Quality Electronic Design (ISQED), San Francisco, CA, USA, 2024, pp. 1-7, [doi: 10.1109/ISQED60706.2024.10528680](https://ieeexplore.ieee.org/document/10528680).
+* P. Dhungana and S. A. Salehi, "RTKWS: Real-Time Keyword Spotting Based on Integer Arithmetic for Edge Deployment", 2024 25th International Symposium on Quality Electronic Design (ISQED), San Francisco, CA, USA, 2024, pp. 1-7, [doi: 10.1109/ISQED60706.2024.10528680](https://ieeexplore.ieee.org/document/10528680).
 
-* S. A. Salehi and P. Dhungana, ``A Low-cost keyword spotting architecture based on wavelet packets feature extraction for edge device," 2024 25th International Symposium on Quality Electronic Design (ISQED), San Francisco, CA, USA, 2024, pp. 1-1, [doi: 10.1109/ISQED60706.2024.10528719](https://ieeexplore.ieee.org/document/10528719).
+* S. A. Salehi and P. Dhungana, "A Low-cost keyword spotting architecture based on wavelet packets feature extraction for edge device", 2024 25th International Symposium on Quality Electronic Design (ISQED), San Francisco, CA, USA, 2024, pp. 1-1, [doi: 10.1109/ISQED60706.2024.10528719](https://ieeexplore.ieee.org/document/10528719).
 
 ## PCIe Backbone Communication
 Ethernet swithes have dominated the communication architecture for most of the automitive ECUs. Replacing ethernet protocol with  PCIe communication can provide swift and efficient hardware solutions for communication between automotive ECUs. Non-Transparent Bridges (NTB) have provided an effective solution for separate memory systems using the same PCIe bus. This project focuses on enabling multi-host PCIe communication between two or more ECUs. [Note: I had to leave the project before its completion for my further studies.]
@@ -56,7 +56,7 @@ Implements brightness and color equalization (BCE) methods of images obtained fr
 
 ### BCE Publication
 
-* P. Dhungana, M. Herceg, R. Grbić and V. Marinković, ``Implementation of brightness and color equalization methods to create a smooth panoramic image on a real ADAS platform," 2022 International Symposium ELMAR, Zadar, Croatia, 2022, pp. 185-190, [doi: 10.1109/ELMAR55880.2022.9899793](https://ieeexplore.ieee.org/document/9899793).
+* P. Dhungana, M. Herceg, R. Grbić and V. Marinković, "Implementation of brightness and color equalization methods to create a smooth panoramic image on a real ADAS platform", 2022 International Symposium ELMAR, Zadar, Croatia, 2022, pp. 185-190, [doi: 10.1109/ELMAR55880.2022.9899793](https://ieeexplore.ieee.org/document/9899793).
 
 
 
