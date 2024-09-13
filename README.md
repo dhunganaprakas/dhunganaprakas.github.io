@@ -64,3 +64,6 @@ Implements brightness and color equalization (BCE) methods of images obtained fr
 <object data="/assets/resume/Resume_PD.pdf" type="application/pdf" width="100%" height="100%">
 </object>
 
+
+[Click here to download.](https://dhunganaprakas.github.io/assets/resume/Resume_PD.pdf)
+
