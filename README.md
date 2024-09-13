@@ -61,6 +61,6 @@ Implements brightness and color equalization (BCE) methods of images obtained fr
 
 # Resume
 
-<object data="/assets/resume/Resume_PD.pdf" type="application/pdf" width="100%">
+<object data="/assets/resume/Resume_PD.pdf" type="application/pdf" width="100%" height="100%">
 </object>
 
