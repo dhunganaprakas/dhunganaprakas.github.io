@@ -59,5 +59,7 @@ Implements brightness and color equalization (BCE) methods of images obtained fr
 * P. Dhungana, M. Herceg, R. Grbić and V. Marinković, "Implementation of brightness and color equalization methods to create a smooth panoramic image on a real ADAS platform", 2022 International Symposium ELMAR, Zadar, Croatia, 2022, pp. 185-190, [doi: 10.1109/ELMAR55880.2022.9899793](https://ieeexplore.ieee.org/document/9899793).
 
 
+# Resume
 
+![Click here for resume.](/assets/resume/Resume_PD.pdf) 
 
