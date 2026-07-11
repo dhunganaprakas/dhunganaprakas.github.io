@@ -1,0 +1,111 @@
+% =====================================================================
+%  Resume — Prakash Dhungana
+%  Edit this file and push: GitHub Actions compiles it to
+%  assets/resume/Resume_PD.pdf automatically (.github/workflows/build-resume.yml)
+% =====================================================================
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.55in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% --- Section style: bold caps with rule -------------------------------
+\titleformat{\section}{\large\bfseries}{}{0pt}{\uppercase}[\vspace{-6pt}\rule{\textwidth}{0.8pt}]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% --- Tight bullets -----------------------------------------------------
+\setlist[itemize]{leftmargin=14pt,itemsep=1pt,parsep=0pt,topsep=2pt,label=\textbullet}
+
+\newcommand{\role}[4]{\vspace{4pt}{\textbf{#1}}\hfill{#4}\\{\itshape #2, #3}\vspace{1pt}}
+
+\begin{document}
+
+% ======================= HEADER =======================
+\begin{center}
+  {\LARGE\bfseries PRAKASH DHUNGANA}\\[3pt]
+  Lexington, KY, USA \,|\, +1 859-806-9257 \,|\,
+  \href{mailto:prakash.dhungana@uky.edu}{prakash.dhungana@uky.edu} \,|\,
+  \href{https://linkedin.com/in/dhunganaprakas}{\underline{linkedin.com/in/dhunganaprakas}}
+\end{center}
+
+\section{Professional Summary}
+Embedded software engineer with production experience developing and debugging safety-critical C/C++ software for autonomous driving and in-vehicle systems on embedded Linux, QNX, NVIDIA DriveOS, and RTOS platforms. Integrated NVIDIA DriveOS Safety Services into a production automotive middleware stack under ISO~26262, and built low-level PCIe and DMA drivers enabling deterministic communication on multicore SoCs. PhD research focused on performance optimization for embedded systems --- spanning real-time latency, memory, and power constraints --- with deep expertise in TinyML and edge intelligence, deploying and optimizing quantized ML workloads on resource-constrained edge devices.
+
+\section{Core Competencies}
+Embedded C/C++ \textbullet\ Embedded Linux (NVIDIA Jetson/Xavier, DriveOS; Yocto, Buildroot, systemd) \textbullet\ Kernel \& Device Driver Development (PCIe, DMA) \textbullet\ Multi-threading, Concurrency \& Memory Management \textbullet\ RTOS \& Real-Time Systems (QNX, Bare-metal) \textbullet\ Vehicle Networks (CAN, Automotive Ethernet, I2C, SPI, UART) \textbullet\ Debugging \& Profiling (TRACE32/Lauterbach, GDB, QNX Momentics, Logic Analyzers) \textbullet\ ISO 26262 Functional Safety, AUTOSAR, MISRA-C/C++ \textbullet\ TinyML/Edge Intelligence \textbullet\ Python, Bash, Git, CI/CD, Docker
+
+\section{Professional Experience}
+
+\role{Graduate Research Assistant -- Embedded AI \& Real-Time Systems}{University of Kentucky}{Lexington, KY, USA}{Jan 2023 -- Aug 2026}
+\begin{itemize}
+  \item Conducted research on real-time and embedded systems optimization for resource-constrained platforms; published peer-reviewed research and presented findings at international conferences.
+  \item Architected custom integer-only inference engines in C/C++ for ARM Cortex-M MCUs, eliminating floating-point overhead to minimize latency (41 ms) and memory footprint (13.5 kB).
+  \item Interfaced bare-metal firmware with hardware to profile and optimize quantized ML model execution on constrained edge devices, applying disciplined memory management under tight resource budgets.
+  \item Developed novel feature extraction pipelines using wavelet packets and custom C/C++ kernels, achieving optimal keyword-spotting accuracy with 14 ms feature extraction and 6 ms quantized inference.
+  \item Implemented on-device continual learning algorithms enabling embedded models to adapt to domain shifts in real time, with and without cloud dependency (on-device/federated learning).
+\end{itemize}
+
+\role{Embedded Software Engineer}{TTTech Auto (now TrustMotion)}{Osijek, Croatia}{Jul 2021 -- Dec 2022}
+\begin{itemize}
+  \item Integrated NVIDIA DriveOS Safety Services (3LSS) into the MotionWise autonomous-driving middleware platform, strictly adhering to ISO 26262 ASIL safety concepts and requirements.
+  \item Implemented low-level C/C++ drivers for PCIe and DMA on multicore SoCs, enabling deterministic inter-processor communication between safety and performance hosts.
+  \item Debugged complex system-level issues across middleware and low-level software using Lauterbach TRACE32, analyzing software components, stack usage, and intercore communication in a real-time operating system environment.
+  \item Configured Basic Software (BSW) modules including MCAL, NvM, and DEM using DaVinci Configurator and Generator, ensuring seamless integration with the Runtime Environment (RTE).
+  \item Performed static code analysis and unit testing with VectorCAST, collaborating with QA on test strategy and ensuring compliance with MISRA-C/C++ standards.
+\end{itemize}
+
+\role{Graduate Student Intern -- ADAS Embedded Software}{TTTech Auto (now TrustMotion)}{Osijek, Croatia}{Nov 2019 -- Jun 2021}
+\begin{itemize}
+  \item Optimized an automotive vision pipeline on TI TDA2x heterogeneous SoCs, reducing DSP execution time by 89.87\% through frame-wise lookup tables.
+  \item Implemented C/C++ image-processing pipelines for panoramic image correction, meeting strict 60 fps real-time latency constraints on automotive hardware.
+  \item Designed and deployed a real-time panoramic image correction algorithm (color and brightness adjustment) optimized for the ALPHA board.
+\end{itemize}
+
+\role{Automotive Service Engineer}{IME Motors / Goldfish International}{Kathmandu, Nepal}{Dec 2016 -- Aug 2019}
+\begin{itemize}
+  \item Diagnosed complex faults in engines and vehicle subsystems using onboard diagnostic tools and Diagnostic Trouble Codes (DTCs).
+  \item Analyzed electrical schematics and powertrain control module logic to resolve hardware-software interface issues in commercial vehicles.
+\end{itemize}
+
+\section{Key Projects}
+\begin{itemize}
+  \item \textbf{TinyML for Real-Time Audio Perception} (C/C++, Assembly) --- Designed integer-only signal processing and classification pipelines for keyword spotting on MCUs; achieved real-time quantized inference under strict latency and memory constraints; implemented on-device continual learning for robustness under domain shifts.
+  \item \textbf{Panoramic Image Correction on ADAS Platform} (C++, DSP, RTOS) --- Proposed an alternative to color balance for brightness and color equalization; implemented and validated brightness equalization algorithms on real automotive ADAS hardware for panoramic images.
+\end{itemize}
+
+\section{Education}
+\textbf{Ph.D. in Computer Engineering}, University of Kentucky, Lexington, KY, USA \hfill 2023 -- 2026\\
+\textbf{M.Sc. in Automotive Computing and Communications}, University of Osijek, Croatia \hfill 2019 -- 2021\\
+\textbf{B.E. in Mechanical Engineering}, Tribhuvan University, Kathmandu, Nepal \hfill 2012 -- 2016
+
+\section{Technical Skills}
+\textbf{Programming Languages:} C, C++, Python, Bash, Assembly\\
+\textbf{Operating Systems \& RTOS:} Embedded Linux, NVIDIA DriveOS, QNX, RTOS, Bare-metal\\
+\textbf{Embedded Linux:} Buildroot, Yocto (OpenEmbedded), Cross-compilation Toolchains, Bootloaders, systemd\\
+\textbf{Embedded Platforms:} NVIDIA Jetson (embedded Linux) \& Xavier, ARM Cortex-M/A, Aurix TriCore\\
+\textbf{Driver \& Low-Level Development:} Kernel device driver development, PCIe, DMA, Ethernet NIC, USB, MIPI camera, FPGA interfaces, Board bring-up\\
+\textbf{Systems Programming:} Multi-threading, Concurrency, Memory Management, System Architecture, Requirements Analysis, SDLC\\
+\textbf{Communication Protocols:} CAN, Automotive Ethernet, TCP/IP, UDP, I2C, SPI, UART\\
+\textbf{Testing \& Debugging:} TRACE32 (JTAG/Lauterbach), GDB, QNX Momentics, Logic Analyzers, VectorCAST, Profiling, Unit/Integration/System-level testing\\
+\textbf{Automotive Standards:} ISO 26262, AUTOSAR, ASPICE, MISRA\\
+\textbf{DevOps \& Tools:} Git, CI/CD pipelines, Docker, Jira, Bitbucket, Eclipse\\
+\textbf{Embedded AI / TinyML:} TensorFlow Lite, Edge Inference, Integer-arithmetic Optimization, On-device Continual Learning\\
+\textbf{Autonomy \& Robotics:} Real-time Control, Sensor/Actuator Integration, ADAS Perception Pipelines, Computer Vision
+
+\section{Certifications}
+\begin{itemize}
+  \item Linux Device Drivers -- Communicating with Hardware; Linux Kernel Programming
+  \item Automotive Software with AUTOSAR; Automotive Software with MotionWise
+  \item Advanced C++ Programming
+  \item Deep Learning A-Z (Neural Networks, TensorFlow)
+  \item Self-Driving Car Engineering (Deep Learning Applications for Autonomy)
+\end{itemize}
+
+\end{document}

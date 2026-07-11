@@ -1,5 +1,6 @@
 title: Prakash Dhungana
-description: Ph.D. Student @ University of Kentucky
+description: Embedded Software Engineer · Embedded Linux, RTOS & TinyML
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-minimal
+logo: /assets/profile/profile_pic_1.jpg
